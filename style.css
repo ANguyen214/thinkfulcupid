@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -51,9 +51,7 @@ main img {
   flex: 2;
 }
 
-.item img {
-  width: 100%;
-}
+
 
 /* -------  Navigation ------- */
 
@@ -161,17 +159,22 @@ footer p {
     align-items: center;
   }
 
-  section.alternate-background .item{
-    width: 20%;
+  section.alternate-background .about{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
-  section.about{
+  section.alternate-background .about-img {
+    width: 30%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
   }
+
+
+  section.download .item {
+    width: 50%;
+  }
+
 }
