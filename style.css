@@ -193,5 +193,13 @@ footer p {
     padding: 10px;
   }
 
+  .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
   
 }
