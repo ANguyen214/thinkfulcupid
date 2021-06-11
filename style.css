@@ -200,6 +200,24 @@ footer p {
     align-items: center;
   }
 
-  
+  #blog img {
+    width: 100%;
+  }
+
+  #blog .first-pair{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #blog .first-pair div, #blog .second-pair div {
+    padding: 10px;
+  }
+  #blog .second-pair{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   
 }
